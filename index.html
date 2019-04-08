@@ -1,110 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Thumbnail Grid with Expanding Preview</title>
 		<link rel="stylesheet" type="text/css" href="lfcss/LFCSS.css" />
+		<script src="LFJava.js"></script>
 	</head>
 
-	<body>
 
-<div>
-	<h1> Looking For...</h1>
-</div>
-<hr />
 
-	<div class="grid-container">
-	  <article class="container">
-			<div class="overlay">
-				<div class="text">for romance?</div>
-			</div>
-			<div class="image">
-				<img src="LFimages\rom.png">
-			</div>
-		</article>
-		<article class="container">
-		 <div class="overlay">
-			 <div class="text">for Glen Rodgers?</div>
-		 </div>
-		 <div class="image">
-			 <img src="LFimages\Glen.jpg">
-		 </div>
-	 </article>
-	 <article class="container">
-		<div class="overlay">
-			<div class="text">for some fun?</div>
+
+
+		<div class="header">
+			<h1> Looking For...</h1>
+			<div class="progress-container">
+    		<div class="progress-bar" id="myBar"></div>
+  		</div>
 		</div>
-		<div class="image">
-			<img src="LFimages\fun.png">
+		<hr />
+
+
+
+<body>
+	<div>
+		<div class="textfloat">
+			<div class="centered">Less time choosing, more time munching:</br> Find the restaurant you're craving </div>
+			<img src="LFimages\restaurant.jpg">
 		</div>
-	</article>
-	<article class="container">
-		 <div class="overlay">
-			 <div class="text">for drinks?</div>
-		 </div>
-		 <div class="image">
-			 <img src="LFimages\drinks.png">
-		 </div>
-	 </article>
-	 <article class="container">
-			<div class="overlay">
-				<div class="text">Hello World</div>
-			</div>
-			<div class="image">
-				<img src="LFimages\1.jpg">
-			</div>
-		</article>
-		<article class="container">
- 			<div class="overlay">
- 				<div class="text">Hello World</div>
- 			</div>
- 			<div class="image">
- 				<img src="LFimages\1.jpg">
- 			</div>
- 		</article>
-		<article class="container">
- 			<div class="overlay">
- 				<div class="text">Hello World</div>
- 			</div>
- 			<div class="image">
- 				<img src="LFimages\2.jpg">
- 			</div>
- 		</article>
-		<article class="container">
- 			<div class="overlay">
- 				<div class="text">Hello World</div>
- 			</div>
- 			<div class="image">
- 				<img src="LFimages\2.jpg">
- 			</div>
- 		</article>
 
-	</div>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<div class="container2">
-	  <div style="text-align:center">
-	    <h2>Fancy a chat?</h2>
-	    <p>Swing by for a cup of coffee, or leave us a message:</p>
-	  </div>
-	  <div class="row">
-	    <div class="column">
-	      <img src="LFimages/Map.PNG" style="width:100%">
-	    </div>
-	    <div class="column">
-	      <form action="/action_page.php">
-	        <label for="fname">First Name</label>
-	        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-	        <label for="lname">Last Name</label>
-	        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-	        <label for="subject">Subject</label>
-	        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-	        <input type="submit" value="Submit">
-	      </form>
-	    </div>
-	  </div>
 	</div>
 
 
@@ -113,22 +39,122 @@
 
 
 
+		<div class="grid-container">
+		  <article class="container">
+				<div class="overlay">
+					<div class="text">for romantic ambience?</div>
+				</div>
+				<div class="image">
+					<img src="LFimages\rom.png">
+				</div>
+			</article>
 
+			<article class="container">
+			 <div class="overlay">
+				 <div class="text">for kid-friendly fun?</div>
+			 </div>
+			 <div class="image">
+				 <img src="LFimages\Balloon.png">
+			 </div>
+		 </article>
+
+		 <article class="container">
+			<div class="overlay">
+				<div class="text">for a social night?</div>
+			</div>
+			<div class="image">
+				<img src="LFimages\fun.png">
+			</div>
+		</article>
+
+		<article class="container">
+			 <div class="overlay">
+				 <div class="text">for drinks?</div>
+			 </div>
+			 <div class="image">
+				 <img src="LFimages\drinks.png">
+			 </div>
+		 </article>
+
+		 <article class="container">
+				<div class="overlay">
+					<div class="text">Hello World</div>
+				</div>
+				<div class="image">
+					<img src="LFimages\1.jpg">
+				</div>
+			</article>
+
+			<article class="container">
+	 			<div class="overlay">
+	 				<div class="text">Hello World</div>
+	 			</div>
+	 			<div class="image">
+	 				<img src="LFimages\1.jpg">
+	 			</div>
+	 		</article>
+
+			<article class="container">
+	 			<div class="overlay">
+	 				<div class="text">Hello World</div>
+	 			</div>
+	 			<div class="image">
+	 				<img src="LFimages\2.jpg">
+	 			</div>
+	 		</article>
+
+			<article class="container">
+	 			<div class="overlay">
+	 				<div class="text">Hello World</div>
+	 			</div>
+	 			<div class="image">
+	 				<img src="LFimages\2.jpg">
+	 			</div>
+	 		</article>
+
+		</div>
+
+		<hr />
+
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="container2">
+		  <div style="text-align:center">
+		    <h2>Fancy a chat?</h2>
+		    <p>Swing by for a cup of coffee, or leave us a message:</p>
+		  </div>
+		  <div class="row">
+		    <div class="column">
+		      <img src="LFimages/Map.PNG" style="width:100%">
+		    </div>
+		    <div class="column">
+		      <form action="/action_page.php">
+		        <label for="fname">First Name</label>
+		        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+		        <label for="lname">Last Name</label>
+		        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		        <label for="subject">Subject</label>
+		        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+		        <input type="submit" value="Submit">
+		      </form>
+		    </div>
+		  </div>
+		</div>
 
 	</body>
 
 
 
-<footer>
-	<div class="footer-social-icons">
-	    <h4 class="_14">Follow us on</h4>
-	    <ul class="social-icons">
-	        <li><a href="https://www.facebook.com/" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-	        <li><a href="https://twitter.com/?lang=en" class="social-icon"target="_blank"> <i class="fa fa-twitter"></i></a></li>
-	        <li><a href="https://www.instagram.com/?hl=en" class="social-icon"target="_blank"> <i class="fa fa-instagram"></i></a></li>
-	    </ul>
-	</div>
-</footer>
+	<footer>
+		<div class="footer-social-icons">
+		    <h4 class="_14">Follow us on</h4>
+		    <ul class="social-icons">
+		        <li><a href="https://www.facebook.com/" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+		        <li><a href="https://twitter.com/?lang=en" class="social-icon"target="_blank"> <i class="fa fa-twitter"></i></a></li>
+		        <li><a href="https://www.instagram.com/?hl=en" class="social-icon"target="_blank"> <i class="fa fa-instagram"></i></a></li>
+		    </ul>
+		</div>
+	</footer>
 </html>
 
 <!-- https://webdesign.tutsplus.com/tutorials/create-a-css-grid-image-gallery-with-blur-effect-and-interaction-media-queries--cms-32287 -->

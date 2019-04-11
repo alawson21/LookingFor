@@ -2,12 +2,41 @@
   box-sizing: border-box;
 }
 
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: grey;
+}
+
+/* Main content */
+
+
 .header {
   position: fixed;
   top: 0;
   z-index: 2;
   width: 100%;
-  background-color: white;
+
   overflow: hidden;
 }
 
@@ -16,7 +45,8 @@
   width: 100%;
   height: 8px;
   background: #ccc;
-}
+  margin-top: 50px;
+  }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
@@ -46,6 +76,7 @@ h2 {
   padding: 20px;
   font-weight: bold;
   font-size: 50px;
+  z-index: 3;
 }
 
 img {

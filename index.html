@@ -1,85 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thumbnail Grid with Expanding Preview</title>
-    <link rel="stylesheet" type="text/css" href="lfcss/index.css" />
-    <script src="LFJava.js"></script>
-</head>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Thumbnail Grid with Expanding Preview</title>
+		<link rel="stylesheet" type="text/css" href="lfcss/LFCSS.css" />
+		<script src="LFJava.js"></script>
+	</head>
+
+
+
+
+
+		<div class="header">
+			<h1> Looking For...</h1>
+			<div class="progress-container">
+    		<div class="progress-bar" id="myBar"></div>
+  		</div>
+		</div>
+		<hr />
+
+
 
 <body>
-<!- The Header ->
-    <!- ------------------------------------------------------------ ->
-    <div class="header">
-        <h1 class="logo"><a class="header-link" href="/">Looking For...</a></h1>
-        <h2 class="about"><a class="header-link" href="/about.html">about</a></h2>
-    </div>
+	<div>
+		<div class="textfloat">
+			<div class="centered">Less time choosing, more time munching:</br> Find the restaurant you're craving </div>
+			<img src="LFimages\restaurant.jpg">
+		</div>
 
-    <!- The Hero image ->
-    <!- ------------------------------------------------------------ ->
-    <div>
-        <div class="centered">
-            <h1 class="hero-h1">Less time choosing, more time munching:</h1>
-            <h2 class="hero-h2">Find the restaurant you're craving</h2>
-        </div> 
-        <img class="hero-image" src="LFimages\restaurant.jpg"></img> 
-    </div>
-<!- The Two-fold Text Section ->
-    <!- ------------------------------------------------------------ ->
+	</div>
 
-    <!- Left Section ->
-        <!- ------------------------------------------------------------ ->
-    <div class="text-container">
-        <div class="container-left">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Quisque sed velit non arcu molestie consequat at
-            quis odio. Morbi sit amet blandit dolor. Vestibulum lacus ipsum,
-        imperdiet eget ante vel, aliquet hendrerit dui. Orci varius natoque
-        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Nullam viverra nibh eget nibh pharetra gravida. Suspendisse id eros sed
-    augue finibus fringilla eu ac urna. Donec maximus tellus auctor quam
-imperdiet, vitae sagittis felis pellentesque. Curabitur condimentum accumsan
-lorem, non iaculis dolor.
-        </div>
 
-        <!- Right Section ->
-        <!- ------------------------------------------------------------ ->
-        <div class="container-right">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Quisque sed velit non arcu molestie consequat at
-            quis odio. Morbi sit amet blandit dolor. Vestibulum lacus ipsum,
-        imperdiet eget ante vel, aliquet hendrerit dui. Orci varius natoque
-        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Nullam viverra nibh eget nibh pharetra gravida. Suspendisse id eros sed
-    augue finibus fringilla eu ac urna. Donec maximus tellus auctor quam
-imperdiet, vitae sagittis felis pellentesque. Curabitur condimentum accumsan
-lorem, non iaculis dolor.
-        </div>
-    </div>
 
-    <!- Footer Section ->
-    <!- ------------------------------------------------------------ ->
-		<div class="footer-container">
 
-    <!- Announcement Section ->
-        <!- ------------------------------------------------------------ ->
-            <div class="footer-announcement"> 
-		    <h2 class="footer-h2">Fancy a chat?</h2>
-		    <p class="footer-description">Swing by for a cup of coffee, or leave us a message:</p>
+
+
+
+		<div class="grid-container">
+		  <article class="container">
+				<div class="overlay">
+					<div class="text">...romantic ambience?</div>
+				</div>
+				<div class="image">
+					<img src="LFimages\rom.png">
+				</div>
+			</article>
+
+			<article class="container">
+			 <div class="overlay">
+				 <div class="text">...kid-friendly fun?</div>
+			 </div>
+			 <div class="image">
+				 <img src="LFimages\Balloon.png">
+			 </div>
+		 </article>
+
+		 <article class="container">
+			<div class="overlay">
+				<div class="text">...a social night?</div>
+			</div>
+			<div class="image">
+				<img src="LFimages\fun.png">
+			</div>
+		</article>
+
+		<article class="container">
+			 <div class="overlay">
+				 <div class="text">...drinks?</div>
+			 </div>
+			 <div class="image">
+				 <img src="LFimages\drinks.png">
+			 </div>
+		 </article>
+
+		 <article class="container">
+				<div class="overlay">
+					<div class="text">Hello World</div>
+				</div>
+				<div class="image">
+					<img src="LFimages\1.jpg">
+				</div>
+			</article>
+
+			<article class="container">
+	 			<div class="overlay">
+	 				<div class="text">Hello World</div>
+	 			</div>
+	 			<div class="image">
+	 				<img src="LFimages\1.jpg">
+	 			</div>
+	 		</article>
+
+			<article class="container">
+	 			<div class="overlay">
+	 				<div class="text">Hello World</div>
+	 			</div>
+	 			<div class="image">
+	 				<img src="LFimages\2.jpg">
+	 			</div>
+	 		</article>
+
+			<article class="container">
+	 			<div class="overlay">
+	 				<div class="text">Hello World</div>
+	 			</div>
+	 			<div class="image">
+	 				<img src="LFimages\2.jpg">
+	 			</div>
+	 		</article>
+
+		</div>
+
+		<hr />
+
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="container2">
+		  <div style="text-align:center">
+		    <h2>Fancy a chat?</h2>
+		    <p>Swing by for a cup of coffee, or leave us a message:</p>
 		  </div>
-
-		  <div class="contact-container">
-
-          <!- Map Section ->
-    <!- ------------------------------------------------------------ ->
-		    <div class="map-container">
-<div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Brainlabs%20London+(Looking%20For)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe></div><br />
+		  <div class="row">
+		    <div class="column">
+		      <img src="LFimages/Map.PNG" style="width:100%">
 		    </div>
-
-            <!- Form/Contact Section ->
-    <!- ------------------------------------------------------------ ->
-
-        <div class="form-container">
+		    <div class="column">
 		      <form onsubmit="confirmInput" action="/action_page.php">
 		        <label for="fname">First Name</label>
 		        <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -88,12 +136,28 @@ lorem, non iaculis dolor.
 		        <label for="subject">Subject</label>
 		        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
 		        <input type="submit" value="Submit">
-                </form>
-                <script alert("Thank you" + fname + "We can't wait to help you
-                    find what you're 'Looking For' and will get back to you as
-                    soon as possible")</script>
-            </div>
+						<form onsubmit="confirmInput()"</form>
+						<script alert("Thank you" + fname + "We can't wait to help you find what you're 'Looking For' and will get back to you as soon as possible"</script>
+</head>
+<body>
+							    </div>
 		  </div>
 		</div>
+
 	</body>
+
+
+
+	<footer>
+		<div class="footer-social-icons">
+		    <h4 class="_14">Follow us on</h4>
+		    <ul class="social-icons">
+		        <li><a href="https://www.facebook.com/" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+		        <li><a href="https://twitter.com/?lang=en" class="social-icon"target="_blank"> <i class="fa fa-twitter"></i></a></li>
+		        <li><a href="https://www.instagram.com/?hl=en" class="social-icon"target="_blank"> <i class="fa fa-instagram"></i></a></li>
+		    </ul>
+		</div>
+	</footer>
 </html>
+
+<!-- https://webdesign.tutsplus.com/tutorials/create-a-css-grid-image-gallery-with-blur-effect-and-interaction-media-queries--cms-32287 -->
